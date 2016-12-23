@@ -1,0 +1,246 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("https://a.slack-edge.com/4030/img/wired/neutrino-observatory-header-image.jpg") no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-color: #ddd;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+
+}
+
+header {
+    padding: 32px;
+}
+
+
+.logo {
+	background: url("https://slack.global.ssl.fastly.net/66f9/img/landing/header_logo_sprite@2x.png") no-repeat;
+	background-position: top left;
+	background-size: 106px 60px;
+	width: 106px;
+	height: 30px;
+	float: left;
+}
+
+ul.main_nav {
+    float: right;
+    margin: 0;
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+}
+
+li.sign_in {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    border-radius: 8px;
+    margin-left: 23px;
+}
+ul li a {
+	text-decoration:none;
+	color: #fff;
+	opacity: 0.8;
+}
+
+ul li a:hover {
+	opacity: 1;
+}
+
+li.sign_in:hover {
+	opacity: 1;
+	border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.logo {
+	background: url("https://slack.global.ssl.fastly.net/66f9/img/landing/header_logo_sprite@2x.png") no-repeat;
+	background-position: top left;
+	background-size: 106px 60px;
+	width: 106px;
+	height: 30px;
+	float: left;
+}
+
+main {
+	
+    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,0.5));
+}
+
+h1 {
+    font-size: 60px;
+    width: 46%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 11% 0 3%;
+    text-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    margin: 25px auto;
+    padding: 1.5% 2%;
+    border-radius: 8px;
+}
+
+form.sign_form {
+    font-family: 'Lato';
+    text-align: center;
+}
+
+input[type="email"] {
+    width: 50%;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #56B68B;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato';
+    outline: none;
+    border: none;
+}
+
+.container p {
+	margin-top: 28px;
+}
+
+.location {
+    display: block;
+    width: 100%;
+    text-align: right;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size:14px;
+}
+
+i.fa.fa-map-marker {
+    padding-right: 5px;
+}
+
+footer {
+    clear: both;
+    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,0.95));
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+#row {
+    display: block;
+    margin: 0 auto;
+    width: 81%;
+    padding: 20px 0 20px 0;
+}
+
+ul.col {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2;
+    margin-left:100px;
+    font-weight: 600;
+}
+
+ul.col li {
+    display: block;
+    font-size:12px;
+}
+
+ul.col li a {
+	color:#9E9EA6;
+	opacity:0.8; 
+}
+
+ul.col li a:hover {
+	opacity:1; 
+}
+
+ul.col > :first-child {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+}
+
+i.fa.fa-heart {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.bottom {
+    background-color: rgba(255,255,255, 0.1);
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.symbol {
+    padding-left: 310px;
+    padding-top: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.symbol:hover {
+    opacity: 1;
+}
+
+img {
+    width: 106px;
+    height: 60px;
+    clip-path: inset(0px 72px 30px 0px);
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.contact {
+    float: right;
+    padding-right: 310px;
+    padding-top:10px;
+}
+span {
+	opacity: 0.5;
+	font-size:14px;
+}
+
+span:hover {
+    opacity: 1;
+}
+
+i.fa.fa-twitter,
+i.fa.fa-youtube-play {
+    font-size: 20px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+i.fa.fa-twitter:hover,
+i.fa.fa-youtube-play:hover {
+    opacity: 1;
+}
