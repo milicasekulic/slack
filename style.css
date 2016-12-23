@@ -244,3 +244,131 @@ i.fa.fa-twitter:hover,
 i.fa.fa-youtube-play:hover {
     opacity: 1;
 }
+
+@media screen and (max-width:960px) {
+.logo {
+    display: block;
+    float: none;
+    margin: 0 auto 20px;
+}
+
+ul.main_nav {
+    float: none;
+    margin: 0;
+    display: block;
+}
+
+h1 {
+	width: 70%;
+}
+
+.container {
+	width: 60%;
+}
+
+.symbol {
+	padding-left: 2%;
+}
+
+.contact {
+	padding-right: 2%;
+}
+
+}
+
+@media screen and (max-width:360px) {
+
+body {
+    background-position: 34%;
+    background-size: cover;
+    background-color: #ddd;
+    max-height: 775px;
+}
+
+.logo {
+    background-position: top center;
+    float: none;
+    margin: auto;
+}
+
+ul.main_nav {
+    float:none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+ul li {
+    display: block;
+    list-style: none;
+    padding-left:0px; 
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    padding-top: 15px;
+}
+
+ul li:nth-child(5) {
+	border: none;
+}
+
+li.sign_in {
+    
+    margin-left: 0px;
+}
+   
+
+h1 {
+    font-size: 30px;
+    width: 76%;
+    padding: 11% 0 9%;
+ }
+
+.container {
+    background: #2f2e2e;
+    width: 100%;
+    margin: 25px auto 0px;
+    padding: 4.5% 2%;
+    border-radius: 0px;
+}
+
+input[type="email"] {
+    width: 90%;
+}
+
+input[type="submit"] {
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 4%;
+}
+.location {
+	display: none;
+}
+
+#row {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+ul.col {
+    display: inline-block;
+    line-height:initial;
+    margin-left: 0px;
+}
+
+ul.col li {
+   border: none;
+}
+
+ul.col li:first-child {
+   border-bottom: 1px solid rgba(255,255,255, 0.5);
+}
+
+.symbol {
+	padding-left: 10px;
+}
+
+.contact {
+	padding-right: 10px;
+}
+}
